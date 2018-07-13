@@ -1,0 +1,21 @@
+@model UserActivity
+<div class="Container">
+<div class="Header">
+    <h1 style="display:inline-block;">Dojo Activity Center</h1>
+    <a href="/Dashboard">Home</a>
+    <a href="Logout">Logout</a>
+</div>
+<h3>@Model.Title</h3>
+<p>Event Coordinator: @Model.User.FirstName</p>
+<p>Description</p>
+<p>@Model.Description</p>
+
+<p>Participants</p>
+@{
+    foreach (Attendee user in @Model.Attendees)
+    {
+        <p>@user.User.FirstName</p>
+    }
+}
+<a href="Join/@ViewBag.SessionUser/@Model.ActivityID"><button>Join</button></a>
+</div>

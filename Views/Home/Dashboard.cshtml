@@ -1,0 +1,44 @@
+<div class="Container">
+<div class="Header">
+    <h1 style="display:inline-block;">Dojo Activity Center</h1>
+    <p style="display:inline-block;">Welcome @ViewBag.User.FirstName</p>
+    <a href="Logout">Logout</a>
+</div>
+<div class="Body">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Activity</td>
+                <td>Date and Time</td>
+                <td>Duration</td>
+                <td>Event Coordinator</td>
+                <td>Number of Participants</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(UserActivity act in ViewBag.Activities){
+                    <tr>
+                        <td><a href="details/@act.ActivityID">@act.Title</a></td>
+                        <td>@act.Date.ToString("MM-dd") @act.Time.ToString("hh\\:mm")</td>
+                        <td>@act.Duration @act.DurationUnits</td>
+                        <td>@act.User.FirstName</td>
+                        <td>@act.Attendees.Count()</td>
+                        @{
+                            if(@ViewBag.SessionUser == @act.User.UserID)
+                            {<td><a href="cancel/@act.ActivityID">Cancel</a></td>}
+                            else if(@act.Attendees.Where(a => a.UserID == @ViewBag.SessionUser).SingleOrDefault() == null)
+                            {<td><a href="Join/@ViewBag.SessionUser/@act.ActivityID">Join</a></td>}
+                            else if(@act.Attendees.Where(a => a.UserID == @ViewBag.SessionUser).SingleOrDefault() != null)
+                            {<td><a href="Leave/@ViewBag.SessionUser/@act.ActivityID">Leave</a></td>}
+                        }
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+    <a href="NewActivity"><button>Add New Activity</button></a>
+</div>
+</div>

@@ -1,0 +1,40 @@
+@model User
+<h1>Welcome to the Dojo Activity Center</h1>
+<div class="container">
+<div class="register">
+    <h3>Register</h3>
+    <p>@ViewBag.RegistrationError</p>
+    <form asp-action="Register" asp-controller="Home" method="POST">
+        <span asp-validation-for="FirstName"></span>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName"><br>
+        <span asp-validation-for="LastName"></span>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName"><br>
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Email"></label>
+        <input asp-for="Email"><br>
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password"></label>
+        <input asp-for="Password"><br>
+        <span>@ViewBag.CPError</span>
+        <label for="ConfirmPassword">Confirm Password</label>
+        <input name="ConfirmPassword"><br>
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+<div class="login">
+    <h3>Login</h3>
+    <p>@ViewBag.loginError</p>
+    <form asp-action="Login" asp-controller="Home" method="POST">
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Email"></label>
+        <input asp-for="Email"><br>
+        <span asp-validation-for="Password"></span>
+        <label asp-for="Password"></label>
+        <input asp-for="Password"><br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
