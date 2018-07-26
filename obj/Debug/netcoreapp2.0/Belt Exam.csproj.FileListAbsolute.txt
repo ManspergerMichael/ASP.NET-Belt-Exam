@@ -9,3 +9,9 @@
 /Users/michaelmansperger/Desktop/DojoAssignments/netCore/Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.AssemblyInfo.cs
 /Users/michaelmansperger/Desktop/DojoAssignments/netCore/Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.dll
 /Users/michaelmansperger/Desktop/DojoAssignments/netCore/Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.pdb
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.csprojAssemblyReference.cache
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.AssemblyInfo.cs
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.dll
+/Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/obj/Debug/netcoreapp2.0/Belt Exam.pdb
