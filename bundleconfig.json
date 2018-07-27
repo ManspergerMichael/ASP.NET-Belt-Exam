@@ -20,11 +20,5 @@
     },
     // Optionally generate .map file
     "sourceMap": false
-  },
-  {
-    "outputFileName": "wwwroot/favicon.ico",
-    "inputFiles": [
-      "wwwroot/favicon.ico"
-    ]
   }
 ]
