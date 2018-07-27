@@ -22,6 +22,11 @@ namespace Belt_Exam.Controllers
             
             return View("Login");
         }
+        [HttpGet("/")]
+        public IActionResult HomeSlash(){
+            
+            return View("Login");
+        }
         [HttpPost("Register")]
         public IActionResult Register(User user, string ConfirmPassword){
             User userEmail = _context.Users.SingleOrDefault(login => login.Email == user.Email);
