@@ -21,7 +21,6 @@ namespace Belt_Exam
             WebHost.CreateDefaultBuilder(args)
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseUrls("http://localhost:5000")
                 .UseStartup<Startup>()
                 .UseIISIntegration()
                 .Build();
