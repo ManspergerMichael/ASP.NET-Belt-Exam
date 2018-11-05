@@ -20,3 +20,14 @@
 /Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/bin/Debug/netcoreapp2.0/Belt Exam.runtimeconfig.dev.json
 /Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/bin/Debug/netcoreapp2.0/Belt Exam.dll
 /Users/michaelmansperger/Desktop/Belt Exams/ASP Belt Exam/bin/Debug/netcoreapp2.0/Belt Exam.pdb
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/bin/Debug/netcoreapp2.0/Belt Exam.deps.json
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/bin/Debug/netcoreapp2.0/Belt Exam.runtimeconfig.json
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/bin/Debug/netcoreapp2.0/Belt Exam.runtimeconfig.dev.json
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/bin/Debug/netcoreapp2.0/Belt Exam.dll
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/bin/Debug/netcoreapp2.0/Belt Exam.pdb
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.csprojResolveAssemblyReference.cache
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.csproj.CoreCompileInputs.cache
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.AssemblyInfoInputs.cache
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.AssemblyInfo.cs
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.dll
+/Users/michaelmansperger/Documents/GitHub/ASP.NET-Belt-Exam/obj/Debug/netcoreapp2.0/Belt Exam.pdb

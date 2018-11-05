@@ -132,6 +132,8 @@ namespace Belt_Exam.Controllers
         }
         [HttpGet("cancel/{Aid}")]
         public IActionResult cancel(int Aid){
+            //check if user id in session is the same as the user id for the event
+            //prevents users from deleting events they didnt create
             UserActivity activity = _context.Activities.SingleOrDefault(a => a.ActivityID == Aid);
             List<Attendee> attendees = _context.Attendees.Where(a => a.ActivityID == Aid).ToList();
             _context.Attendees.RemoveRange(attendees);
